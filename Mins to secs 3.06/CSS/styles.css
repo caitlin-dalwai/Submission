@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(68, 20, 20);
+}
+
+.block {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+.add {
+    margin-bottom: 25px;
+}
+
+.add h4 {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.add input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid darkcyan;
+}
+
+#calc {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 11px;
+}
+
+#calc:active {
+    background-color: beige;
+}
+
+#clr{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 11px;
+}
